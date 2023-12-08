@@ -29,7 +29,7 @@ on:
           - 'd-team_newifi-d2-Clash'
           - 'd-team_newifi-d2-Lite'
       Tempoary_FLAG:
-        description: '固件标签'
+        description: 'zjz'
         default: 'AUTO'
         type: choice
         options:
@@ -38,7 +38,7 @@ on:
           - 'Clash'
           - 'Lite'
       Tempoary_IP:
-        description: '固件 IP 地址 [可选]'
+        description: '10.10.100.1'
         default: ''
       UPLOAD_RELEASES:
         description: '上传固件到 Releases'
